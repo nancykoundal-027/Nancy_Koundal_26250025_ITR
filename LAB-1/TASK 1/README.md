@@ -1,1 +1,1 @@
-Task 1 OF Lab 1.
+Task 1 of Lab 1.
