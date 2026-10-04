@@ -1,0 +1,15 @@
+<mujoco model="quadrotor">
+  <compiler angle="radian" meshdir="./"/>
+
+  <asset>
+    <mesh name="quadrotor_mesh" content_type="model/obj" file="quadrotor_base.obj" scale="0.1 0.1 0.1"/>
+  </asset>
+
+  <worldbody>
+    <geom name="ground" size="10 10 0.1" type="plane" rgba="0.7 0.7 0.7 1"/>
+    <body name="quadrotor" pos="0 0 1">
+      <joint name="quad_free" type="free"/>
+      <geom name="quadrotor_body" type="mesh" density="500" mesh="quadrotor_mesh"/>
+    </body>
+  </worldbody>
+</mujoco>

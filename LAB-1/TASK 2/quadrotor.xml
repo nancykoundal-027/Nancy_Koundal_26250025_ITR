@@ -1,0 +1,48 @@
+<mujoco model="quadrotor">
+
+    <compiler
+        angle="radian"
+        meshdir="."
+        inertiafromgeom="true"/>
+
+    <option
+        timestep="0.002"
+        gravity="0 0 -9.81"/>
+
+    <asset>
+        <mesh
+            name="quadrotor_mesh"
+            file="quadrotor_base.obj"
+            scale="0.1 0.1 0.1"/>
+    </asset>
+
+    <worldbody>
+
+        <!-- Ground -->
+        <geom
+            name="ground"
+            type="plane"
+            size="10 10 0.1"
+            pos="0 0 0"
+            rgba="0.7 0.7 0.7 1"/>
+
+        <!-- Quadrotor -->
+        <body
+            name="quadrotor"
+            pos="0 0 1">
+
+            <!-- 6-DOF free body -->
+            <freejoint name="quad_free"/>
+
+            <!-- Existing quadrotor mesh -->
+            <geom
+                name="quadrotor_body"
+                type="mesh"
+                mesh="quadrotor_mesh"
+                density="500"/>
+
+        </body>
+
+    </worldbody>
+
+</mujoco>
