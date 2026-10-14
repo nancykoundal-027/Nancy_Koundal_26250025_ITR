@@ -1,1 +1,1 @@
-LAB3/video/*.mov filter=lfs diff=lfs merge=lfs -text
+Lab-3/FRANKA[[:space:]]pick[[:space:]]and[[:space:]]place[[:space:]]task/video/*.mov filter=lfs diff=lfs merge=lfs -text
