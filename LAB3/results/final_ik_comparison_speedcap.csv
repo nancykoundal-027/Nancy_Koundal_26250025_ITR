@@ -1,0 +1,4 @@
+method,episodes,successes,success_rate_percent,mean_time_s,median_time_s,mean_ik_iterations,position_violation_episodes,position_violation_samples,maximum_position_excursion_rad,speed_violation_episodes,speed_violation_samples,peak_actual_speed_rad_s,same_initial_poses_as_mink
+Mink,25,18,72.0,2.6929200000000004,2.8606,6906.32,4,148,4.762611960806851e-06,7,162,1.1730519911007893,True
+DLS,25,17,68.0,2.320576,2.4531,6913.32,2,644,8.374410200406857e-06,4,566,1.283431076998697,True
+Custom QP,25,18,72.0,2.841352,2.9432,7556.08,1,1294,0.02905335622683003,9,7359,4.240162193953197,True

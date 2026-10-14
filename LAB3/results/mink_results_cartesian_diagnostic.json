@@ -1,0 +1,68 @@
+[
+  {
+    "episode": 1,
+    "seed": 0,
+    "success": false,
+    "reason": "IK did not converge during Transit above tray (position=0.3852 m, orientation=1.3353 rad)",
+    "time_s": 2.1574,
+    "ik_iterations": 6023,
+    "simulation_steps": 6623,
+    "phase_iterations": {
+      "Pre-grasp": 2021,
+      "Grasp approach": 501,
+      "Lift": 501,
+      "Transit above tray": 3000
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.00923543541965597,
+        "orientation_rad": 0.05534218733204545
+      },
+      "Grasp approach": {
+        "position_m": 0.0010089446000989888,
+        "orientation_rad": 0.0018870986140173648
+      },
+      "Lift": {
+        "position_m": 0.0018902867766282824,
+        "orientation_rad": 0.0015962507864132488
+      },
+      "Transit above tray": {
+        "position_m": 0.3852476491764356,
+        "orientation_rad": 1.3353351348800382
+      }
+    },
+    "min_contact_distance_m": -0.006030773818473,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_75",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "geom_13 <-> table_top",
+      "geom_64 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_70 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4773923374642909,
+      -0.09208531449445188,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.8841484100105235,
+    "cube_lifted": true,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "cube_z_before_lift_m": 0.3510137311124499,
+    "cube_z_after_lift_m": 0.4653915359959846,
+    "cube_lift_delta_m": 0.11437780488353472
+  }
+]

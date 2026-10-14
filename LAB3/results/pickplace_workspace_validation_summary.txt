@@ -1,0 +1,10 @@
+Pick-and-place workspace IK validation
+Scene: /Users/nancykoundal/ITR_LAB3_FRANKA/robot_descriptions/franka_emika_panda/pick_place_scene.xml
+Tested seeded poses: 25
+Pre-grasp reachable: 24/25 (96.0%)
+Grasp approach reachable after pre-grasp: 24/24 (100.0% of attempted cases)
+Both waypoints reachable: 24/25 (96.0%)
+Elapsed wall time: 10.49 s
+
+Important limitation: this is a kinematic IK reachability diagnostic, not a physical pick-and-place test.
+It does not simulate gripper contact, object lift, collision clearance, transit to tray, or final placement.

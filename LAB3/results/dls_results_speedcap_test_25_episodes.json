@@ -1,0 +1,1959 @@
+[
+  {
+    "episode": 1,
+    "seed": 0,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 3.0039,
+    "ik_iterations": 8606,
+    "simulation_steps": 9856,
+    "phase_iterations": {
+      "Pre-grasp": 3281,
+      "Grasp approach": 631,
+      "Lift": 821,
+      "Transit above tray": 2031,
+      "Place in tray": 831,
+      "Retreat": 1011
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.00990131575128807,
+        "orientation_rad": 0.04780629923996027
+      },
+      "Grasp approach": {
+        "position_m": 0.009677887821089122,
+        "orientation_rad": 0.06227252933950845
+      },
+      "Lift": {
+        "position_m": 0.009279874343306,
+        "orientation_rad": 0.031664700543915736
+      },
+      "Transit above tray": {
+        "position_m": 0.008875410594609,
+        "orientation_rad": 0.011471645380891966
+      },
+      "Place in tray": {
+        "position_m": 0.009763277085602855,
+        "orientation_rad": 0.013949510001015025
+      },
+      "Retreat": {
+        "position_m": 0.009446510809246711,
+        "orientation_rad": 0.0015920790163660545
+      }
+    },
+    "min_contact_distance_m": -0.005482997420131986,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_13 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_67 <-> tray_base",
+      "geom_68 <-> tray_base",
+      "geom_70 <-> tray_base",
+      "geom_75 <-> table_top",
+      "geom_75 <-> tray_base",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top",
+      "geom_78 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4773923374642909,
+      -0.09208531449445188,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.8841484100105235,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6488254154135772,
+      0.19953495793907697,
+      0.36989206744854475
+    ],
+    "joint_state_samples": 9856,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.23680444823187097,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3361986766522503,
+    "cube_z_before_lift_m": 0.34913845301406893,
+    "cube_z_after_lift_m": 0.4697884066447416,
+    "cube_lift_delta_m": 0.12064995363067266,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 2,
+    "seed": 1,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 3.1053,
+    "ik_iterations": 8096,
+    "simulation_steps": 9346,
+    "phase_iterations": {
+      "Pre-grasp": 3551,
+      "Grasp approach": 591,
+      "Lift": 801,
+      "Transit above tray": 1651,
+      "Place in tray": 531,
+      "Retreat": 971
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.0013917553297548724,
+        "orientation_rad": 0.0779016846596695
+      },
+      "Grasp approach": {
+        "position_m": 0.00974868525405518,
+        "orientation_rad": 0.06117859234786794
+      },
+      "Lift": {
+        "position_m": 0.009495417802160452,
+        "orientation_rad": 0.03430620838619923
+      },
+      "Transit above tray": {
+        "position_m": 0.009860185651781664,
+        "orientation_rad": 0.07900582234243818
+      },
+      "Place in tray": {
+        "position_m": 0.009619376573354694,
+        "orientation_rad": 0.07002592356889951
+      },
+      "Retreat": {
+        "position_m": 0.008278358674615505,
+        "orientation_rad": 0.033079533102127794
+      }
+    },
+    "min_contact_distance_m": -0.0035362978658175634,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_13 <-> table_top",
+      "geom_64 <-> wall_x2",
+      "geom_67 <-> tray_base",
+      "geom_75 <-> table_top",
+      "geom_75 <-> tray_base",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.45236432494005135,
+      0.18018547853037414,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.235811093061091,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6499759599649092,
+      0.20107085603175992,
+      0.3698922445797833
+    ],
+    "joint_state_samples": 9346,
+    "joint_limit_violation_samples": 619,
+    "joint_limit_violation_joint_samples": 619,
+    "joint_limit_max_excursion_rad": 8.374410200406857e-06,
+    "min_joint_limit_margin_rad": -8.374410200406857e-06,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3733678710460981,
+    "cube_z_before_lift_m": 0.3490858701480775,
+    "cube_z_after_lift_m": 0.47288672390659414,
+    "cube_lift_delta_m": 0.12380085375851663,
+    "joint_position_limit_violation": true,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 3,
+    "seed": 2,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.4416,
+    "ik_iterations": 6506,
+    "simulation_steps": 7756,
+    "phase_iterations": {
+      "Pre-grasp": 1221,
+      "Grasp approach": 601,
+      "Lift": 811,
+      "Transit above tray": 2261,
+      "Place in tray": 611,
+      "Retreat": 1001
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.009437109079100578,
+        "orientation_rad": 0.040883443837812256
+      },
+      "Grasp approach": {
+        "position_m": 0.008374413790942559,
+        "orientation_rad": 0.06194461583157332
+      },
+      "Lift": {
+        "position_m": 0.00985637630609581,
+        "orientation_rad": 0.03518426902792919
+      },
+      "Transit above tray": {
+        "position_m": 0.008990790640056156,
+        "orientation_rad": 0.008636910583589763
+      },
+      "Place in tray": {
+        "position_m": 0.009967926825918882,
+        "orientation_rad": 0.007933118952685362
+      },
+      "Retreat": {
+        "position_m": 0.009635708460425635,
+        "orientation_rad": 0.024591529588539548
+      }
+    },
+    "min_contact_distance_m": -0.0027879212152188138,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_70 <-> table_top",
+      "geom_75 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4023224268498633,
+      -0.08060354263435068,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 1.974338556439606,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6669232267971096,
+      0.17650708145848093,
+      0.36989224457978354
+    ],
+    "joint_state_samples": 7756,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.5670648420657716,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.30815023606714176,
+    "cube_z_before_lift_m": 0.34860809749095434,
+    "cube_z_after_lift_m": 0.4722382148964398,
+    "cube_lift_delta_m": 0.12363011740548546,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 4,
+    "seed": 3,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.6615,
+    "ik_iterations": 6976,
+    "simulation_steps": 8226,
+    "phase_iterations": {
+      "Pre-grasp": 1611,
+      "Grasp approach": 621,
+      "Lift": 821,
+      "Transit above tray": 2371,
+      "Place in tray": 581,
+      "Retreat": 971
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.009470042839128548,
+        "orientation_rad": 0.021346729564885376
+      },
+      "Grasp approach": {
+        "position_m": 0.008428904094698077,
+        "orientation_rad": 0.043592710337533536
+      },
+      "Lift": {
+        "position_m": 0.009728884122021103,
+        "orientation_rad": 0.027445085807474894
+      },
+      "Transit above tray": {
+        "position_m": 0.009358241768467116,
+        "orientation_rad": 0.006081854512044397
+      },
+      "Place in tray": {
+        "position_m": 0.009715406777945093,
+        "orientation_rad": 0.016863403153254235
+      },
+      "Retreat": {
+        "position_m": 0.009510039791832882,
+        "orientation_rad": 0.023759260481426885
+      }
+    },
+    "min_contact_distance_m": -0.003522248117203034,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_70 <-> table_top",
+      "geom_75 <-> table_top",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.36712983342872485,
+      -0.10527579736156012,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 1.8929632932132203,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6630276380350169,
+      0.17957276578194883,
+      0.3698922445797834
+    ],
+    "joint_state_samples": 8226,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.4870113906877682,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3082240850234568,
+    "cube_z_before_lift_m": 0.3491261664339894,
+    "cube_z_after_lift_m": 0.47275808422293675,
+    "cube_lift_delta_m": 0.12363191778894733,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 5,
+    "seed": 4,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.5073,
+    "ik_iterations": 7256,
+    "simulation_steps": 8506,
+    "phase_iterations": {
+      "Pre-grasp": 2641,
+      "Grasp approach": 591,
+      "Lift": 701,
+      "Transit above tray": 1491,
+      "Place in tray": 871,
+      "Retreat": 961
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.00894092143532539,
+        "orientation_rad": 0.010646661561373455
+      },
+      "Grasp approach": {
+        "position_m": 0.00872648351905013,
+        "orientation_rad": 0.05451338502056823
+      },
+      "Lift": {
+        "position_m": 0.00998287261153474,
+        "orientation_rad": 0.01794469172259014
+      },
+      "Transit above tray": {
+        "position_m": 0.009786795906640116,
+        "orientation_rad": 0.01240953372045893
+      },
+      "Place in tray": {
+        "position_m": 0.009918717427771749,
+        "orientation_rad": 0.010446761559327092
+      },
+      "Retreat": {
+        "position_m": 0.00987637495553175,
+        "orientation_rad": 0.004010053380742006
+      }
+    },
+    "min_contact_distance_m": -0.0021998855115222724,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_13 <-> table_top",
+      "geom_64 <-> wall_x2",
+      "geom_64 <-> wall_y2",
+      "geom_67 <-> tray_base"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.5386112211144736,
+      0.004531021125744639,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 2.9923274543394056,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6527490464498994,
+      0.19674654819822432,
+      0.3698922292582623
+    ],
+    "joint_state_samples": 8506,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.7066044127781428,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3103816190946981,
+    "cube_z_before_lift_m": 0.3498577529346253,
+    "cube_z_after_lift_m": 0.4657278593798813,
+    "cube_lift_delta_m": 0.11587010644525603,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 6,
+    "seed": 5,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 3.0815,
+    "ik_iterations": 8736,
+    "simulation_steps": 9986,
+    "phase_iterations": {
+      "Pre-grasp": 3651,
+      "Grasp approach": 601,
+      "Lift": 691,
+      "Transit above tray": 2281,
+      "Place in tray": 551,
+      "Retreat": 961
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.009777108583196808,
+        "orientation_rad": 0.018555517020980208
+      },
+      "Grasp approach": {
+        "position_m": 0.009387668825251144,
+        "orientation_rad": 0.05931923162852002
+      },
+      "Lift": {
+        "position_m": 0.009716661950507301,
+        "orientation_rad": 0.026714785868033143
+      },
+      "Transit above tray": {
+        "position_m": 0.00969054234457063,
+        "orientation_rad": 0.0098972855823141
+      },
+      "Place in tray": {
+        "position_m": 0.009693031114546218,
+        "orientation_rad": 0.030331632708334215
+      },
+      "Retreat": {
+        "position_m": 0.009780418044975666,
+        "orientation_rad": 0.023601280118125238
+      }
+    },
+    "min_contact_distance_m": -0.004112612056978156,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_15 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_69 <-> table_top",
+      "geom_70 <-> table_top",
+      "geom_75 <-> table_top",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top",
+      "geom_78 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.40716027601762833,
+      -0.17842771904733745,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -0.7328149346083426,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6531498883765926,
+      0.1994421061844185,
+      0.3698922445797833
+    ],
+    "joint_state_samples": 9986,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.6938059932690166,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.37186192935595497,
+    "cube_z_before_lift_m": 0.3484597828305251,
+    "cube_z_after_lift_m": 0.47529682485197966,
+    "cube_lift_delta_m": 0.12683704202145457,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 7,
+    "seed": 6,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 3.1224,
+    "ik_iterations": 8856,
+    "simulation_steps": 10106,
+    "phase_iterations": {
+      "Pre-grasp": 3721,
+      "Grasp approach": 651,
+      "Lift": 791,
+      "Transit above tray": 2091,
+      "Place in tray": 611,
+      "Retreat": 991
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.007643644732047878,
+        "orientation_rad": 0.07372103558836271
+      },
+      "Grasp approach": {
+        "position_m": 0.00952484861431346,
+        "orientation_rad": 0.04592438993832681
+      },
+      "Lift": {
+        "position_m": 0.00908563481576125,
+        "orientation_rad": 0.00806508433728729
+      },
+      "Transit above tray": {
+        "position_m": 0.00914642236302452,
+        "orientation_rad": 0.01028523313429924
+      },
+      "Place in tray": {
+        "position_m": 0.00949697832215486,
+        "orientation_rad": 0.006360455910800199
+      },
+      "Retreat": {
+        "position_m": 0.009420493320222989,
+        "orientation_rad": 0.02277081189958882
+      }
+    },
+    "min_contact_distance_m": -0.0038613932049512043,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_15 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_69 <-> table_top",
+      "geom_70 <-> table_top",
+      "geom_75 <-> table_top",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top",
+      "geom_78 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.45763287029438865,
+      -0.06269165207466464,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -0.8226747951461474,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6547066320773074,
+      0.2043189168878831,
+      0.3698922445797837
+    ],
+    "joint_state_samples": 10106,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.72106912392556,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.37606367867555995,
+    "cube_z_before_lift_m": 0.3476930227217385,
+    "cube_z_after_lift_m": 0.4738328933808931,
+    "cube_lift_delta_m": 0.1261398706591546,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 8,
+    "seed": 7,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.0804,
+    "ik_iterations": 5616,
+    "simulation_steps": 6866,
+    "phase_iterations": {
+      "Pre-grasp": 771,
+      "Grasp approach": 601,
+      "Lift": 771,
+      "Transit above tray": 1661,
+      "Place in tray": 731,
+      "Retreat": 1081
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.00970419239780627,
+        "orientation_rad": 0.01510411633271429
+      },
+      "Grasp approach": {
+        "position_m": 0.008576772539561614,
+        "orientation_rad": 0.06273814158030563
+      },
+      "Lift": {
+        "position_m": 0.009828103967436413,
+        "orientation_rad": 0.021099837895081443
+      },
+      "Transit above tray": {
+        "position_m": 0.009263166194339884,
+        "orientation_rad": 0.011437028291538226
+      },
+      "Place in tray": {
+        "position_m": 0.009199401133863177,
+        "orientation_rad": 0.027009544978985483
+      },
+      "Retreat": {
+        "position_m": 0.009611092110323485,
+        "orientation_rad": 0.011546147749342735
+      }
+    },
+    "min_contact_distance_m": -0.002831154896185681,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "cube_geom <-> wall_x2",
+      "geom_64 <-> wall_x2",
+      "geom_67 <-> wall_x2",
+      "geom_75 <-> wall_x2"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4750190933209334,
+      0.15888552038783021,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 1.7321842783482624,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6543845701845692,
+      0.20457233513827341,
+      0.36989224457978337
+    ],
+    "joint_state_samples": 6866,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.8503928208180089,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3106505222414287,
+    "cube_z_before_lift_m": 0.3497889361020938,
+    "cube_z_after_lift_m": 0.4635778775359138,
+    "cube_lift_delta_m": 0.11378894143382001,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 9,
+    "seed": 8,
+    "success": false,
+    "reason": "IK did not converge during Pre-grasp (position=0.2091 m, orientation=0.4034 rad)",
+    "time_s": 1.5436,
+    "ik_iterations": 6000,
+    "simulation_steps": 6000,
+    "phase_iterations": {
+      "Pre-grasp": 6000
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.2091155016839514,
+        "orientation_rad": 0.40336022714954467
+      }
+    },
+    "min_contact_distance_m": -0.0003164153269075146,
+    "contact_pairs": [
+      "cube_geom <-> table_top",
+      "geom_15 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.41539445532111213,
+      0.19491073733517023,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -1.1390733959787083,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 6000,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.472141250249543,
+    "velocity_violation_samples": 116,
+    "velocity_violation_joint_samples": 116,
+    "peak_abs_joint_velocity_rad_s": 1.1300489211853235,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": true
+  },
+  {
+    "episode": 10,
+    "seed": 9,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.651,
+    "ik_iterations": 7246,
+    "simulation_steps": 8496,
+    "phase_iterations": {
+      "Pre-grasp": 2001,
+      "Grasp approach": 581,
+      "Lift": 811,
+      "Transit above tray": 2001,
+      "Place in tray": 821,
+      "Retreat": 1031
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.0005123045490391147,
+        "orientation_rad": 0.0049793899935400695
+      },
+      "Grasp approach": {
+        "position_m": 0.00817340595683901,
+        "orientation_rad": 0.05892201664408879
+      },
+      "Lift": {
+        "position_m": 0.008426271710629556,
+        "orientation_rad": 0.03348285045612939
+      },
+      "Transit above tray": {
+        "position_m": 0.0021255914365530953,
+        "orientation_rad": 0.0032617666770915978
+      },
+      "Place in tray": {
+        "position_m": 0.009427731554293857,
+        "orientation_rad": 0.030670554371657877
+      },
+      "Retreat": {
+        "position_m": 0.009840586699518126,
+        "orientation_rad": 0.00128491739638999
+      }
+    },
+    "min_contact_distance_m": -0.00361359497903069,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_67 <-> tray_base",
+      "geom_68 <-> table_top",
+      "geom_68 <-> tray_base",
+      "geom_69 <-> table_top",
+      "geom_69 <-> tray_base",
+      "geom_70 <-> tray_base",
+      "geom_75 <-> tray_base"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.524049840794017,
+      -0.08527311636497786,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 0.6480989408667288,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6504784334332224,
+      0.19861797976618356,
+      0.3692505407740273
+    ],
+    "joint_state_samples": 8496,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.9404675381069976,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.29968345469692803,
+    "cube_z_before_lift_m": 0.3491624460816472,
+    "cube_z_after_lift_m": 0.47432439995108977,
+    "cube_lift_delta_m": 0.12516195386944257,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 11,
+    "seed": 10,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.4531,
+    "ik_iterations": 6406,
+    "simulation_steps": 7656,
+    "phase_iterations": {
+      "Pre-grasp": 1251,
+      "Grasp approach": 551,
+      "Lift": 751,
+      "Transit above tray": 2001,
+      "Place in tray": 821,
+      "Retreat": 1031
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.006430741829246498,
+        "orientation_rad": 0.07586303043954817
+      },
+      "Grasp approach": {
+        "position_m": 0.008713903814646394,
+        "orientation_rad": 0.06807184517056676
+      },
+      "Lift": {
+        "position_m": 0.009821925953755584,
+        "orientation_rad": 0.024714669642363893
+      },
+      "Transit above tray": {
+        "position_m": 0.002112650934588642,
+        "orientation_rad": 0.0014526055360957388
+      },
+      "Place in tray": {
+        "position_m": 0.00969244065261053,
+        "orientation_rad": 0.031321913546364474
+      },
+      "Retreat": {
+        "position_m": 0.009906154331621005,
+        "orientation_rad": 0.0014017235452339649
+      }
+    },
+    "min_contact_distance_m": -0.0031786346516252213,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_67 <-> tray_base",
+      "geom_68 <-> table_top",
+      "geom_68 <-> tray_base",
+      "geom_69 <-> tray_base",
+      "geom_70 <-> table_top",
+      "geom_70 <-> tray_base"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.5412003419257951,
+      -0.11692727596834125,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 2.0636800773752166,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6487439210168136,
+      0.20584465654966036,
+      0.36930255771604886
+    ],
+    "joint_state_samples": 7656,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.9722763270978793,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.2996260807500826,
+    "cube_z_before_lift_m": 0.3490985949617028,
+    "cube_z_after_lift_m": 0.47445366951694207,
+    "cube_lift_delta_m": 0.12535507455523925,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 12,
+    "seed": 11,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.6421,
+    "ik_iterations": 7286,
+    "simulation_steps": 8536,
+    "phase_iterations": {
+      "Pre-grasp": 2001,
+      "Grasp approach": 631,
+      "Lift": 821,
+      "Transit above tray": 2321,
+      "Place in tray": 551,
+      "Retreat": 961
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.0014393682239443937,
+        "orientation_rad": 0.006913855348219155
+      },
+      "Grasp approach": {
+        "position_m": 0.009601743569832243,
+        "orientation_rad": 0.042522445658968504
+      },
+      "Lift": {
+        "position_m": 0.009834774136033576,
+        "orientation_rad": 0.02380222710119101
+      },
+      "Transit above tray": {
+        "position_m": 0.009192431957291658,
+        "orientation_rad": 0.0014509651840825556
+      },
+      "Place in tray": {
+        "position_m": 0.009383150693991007,
+        "orientation_rad": 0.027663161380542794
+      },
+      "Retreat": {
+        "position_m": 0.009088277543696477,
+        "orientation_rad": 0.02317234463322986
+      }
+    },
+    "min_contact_distance_m": -0.0031918993836459386,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_69 <-> table_top",
+      "geom_75 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.3757140405538399,
+      -0.00028885502395401555,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 0.6377329893219388,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6560763906560397,
+      0.20415649448660092,
+      0.3697372299335613
+    ],
+    "joint_state_samples": 8536,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.4679983875127305,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.31681105647306657,
+    "cube_z_before_lift_m": 0.348440235000115,
+    "cube_z_after_lift_m": 0.4731037311867385,
+    "cube_lift_delta_m": 0.12466349618662348,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 13,
+    "seed": 12,
+    "success": false,
+    "reason": "IK did not converge during Pre-grasp (position=0.0142 m, orientation=0.1916 rad)",
+    "time_s": 1.5647,
+    "ik_iterations": 6000,
+    "simulation_steps": 6000,
+    "phase_iterations": {
+      "Pre-grasp": 6000
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.014224295138062235,
+        "orientation_rad": 0.1915663956572976
+      }
+    },
+    "min_contact_distance_m": -0.00045787939023139257,
+    "contact_pairs": [
+      "cube_geom <-> table_top",
+      "geom_13 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4001648916216892,
+      0.17870117714376985,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -1.9520575950999757,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 6000,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 7.347354253894878e-07,
+    "min_joint_limit_margin_rad": -7.347354253894878e-07,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3662141794782106,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 14,
+    "seed": 13,
+    "success": false,
+    "reason": "Grasp check failed: cube did not rise by at least 0.015 m",
+    "time_s": 1.2856,
+    "ik_iterations": 4563,
+    "simulation_steps": 5163,
+    "phase_iterations": {
+      "Pre-grasp": 2441,
+      "Grasp approach": 1201,
+      "Lift": 921
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.00932235450029526,
+        "orientation_rad": 0.011706976446148687
+      },
+      "Grasp approach": {
+        "position_m": 0.007671785233239428,
+        "orientation_rad": 0.044516337857608966
+      },
+      "Lift": {
+        "position_m": 0.009467930141260022,
+        "orientation_rad": 0.021642473274292112
+      }
+    },
+    "min_contact_distance_m": -0.020718869852922647,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_67",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "geom_13 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_69 <-> geom_78",
+      "geom_69 <-> table_top",
+      "geom_70 <-> geom_77",
+      "geom_70 <-> table_top",
+      "geom_71 <-> geom_80",
+      "geom_72 <-> geom_79",
+      "geom_75 <-> table_top",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top",
+      "geom_78 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4022892722832953,
+      -0.16912021691263146,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 2.805227231857172,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 5163,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.6573730868625183,
+    "velocity_violation_samples": 130,
+    "velocity_violation_joint_samples": 130,
+    "peak_abs_joint_velocity_rad_s": 0.76365688277328,
+    "cube_z_before_lift_m": 0.34989224902385063,
+    "cube_z_after_lift_m": 0.3498922445797843,
+    "cube_lift_delta_m": -4.444066337150332e-09,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": true
+  },
+  {
+    "episode": 15,
+    "seed": 14,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.2924,
+    "ik_iterations": 5946,
+    "simulation_steps": 7196,
+    "phase_iterations": {
+      "Pre-grasp": 661,
+      "Grasp approach": 641,
+      "Lift": 791,
+      "Transit above tray": 2001,
+      "Place in tray": 811,
+      "Retreat": 1041
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.009376085767194169,
+        "orientation_rad": 0.03017127977771389
+      },
+      "Grasp approach": {
+        "position_m": 0.009038182607493733,
+        "orientation_rad": 0.030851934297577738
+      },
+      "Lift": {
+        "position_m": 0.008842966063165042,
+        "orientation_rad": 0.004950838785588889
+      },
+      "Transit above tray": {
+        "position_m": 0.0024406192811547065,
+        "orientation_rad": 0.006103149199385245
+      },
+      "Place in tray": {
+        "position_m": 0.009501837113504219,
+        "orientation_rad": 0.031039029807873278
+      },
+      "Retreat": {
+        "position_m": 0.00920759349859502,
+        "orientation_rad": 0.0013317957346702216
+      }
+    },
+    "min_contact_distance_m": -0.0044847650583860355,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_67 <-> tray_base",
+      "geom_68 <-> tray_base",
+      "geom_69 <-> tray_base",
+      "geom_70 <-> tray_base"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.5161966637778224,
+      -0.05562133326629737,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 1.2738486260209596,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6514605169891278,
+      0.19960125649633556,
+      0.3691064337940165
+    ],
+    "joint_state_samples": 7196,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.8787470770206594,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3001226806547868,
+    "cube_z_before_lift_m": 0.34969304413117963,
+    "cube_z_after_lift_m": 0.4744293903525434,
+    "cube_lift_delta_m": 0.12473634622136376,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 16,
+    "seed": 15,
+    "success": false,
+    "reason": "IK did not converge during Pre-grasp (position=0.0794 m, orientation=0.1512 rad)",
+    "time_s": 1.5515,
+    "ik_iterations": 6000,
+    "simulation_steps": 6000,
+    "phase_iterations": {
+      "Pre-grasp": 6000
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.07940590546732809,
+        "orientation_rad": 0.15120280722362017
+      }
+    },
+    "min_contact_distance_m": -0.00032601555736432746,
+    "contact_pairs": [
+      "cube_geom <-> table_top",
+      "geom_15 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4885486735930305,
+      0.126326844534423,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -0.9776211733323575,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 6000,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.9814997877930396,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3888501513199142,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 17,
+    "seed": 16,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 3.0138,
+    "ik_iterations": 8776,
+    "simulation_steps": 10026,
+    "phase_iterations": {
+      "Pre-grasp": 3561,
+      "Grasp approach": 631,
+      "Lift": 831,
+      "Transit above tray": 2051,
+      "Place in tray": 661,
+      "Retreat": 1041
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.00850218414491744,
+        "orientation_rad": 0.0744554596628138
+      },
+      "Grasp approach": {
+        "position_m": 0.009933037571207596,
+        "orientation_rad": 0.06912565189431587
+      },
+      "Lift": {
+        "position_m": 0.00962413030879597,
+        "orientation_rad": 0.03368846285193801
+      },
+      "Transit above tray": {
+        "position_m": 0.00935460439000111,
+        "orientation_rad": 0.01145687433969567
+      },
+      "Place in tray": {
+        "position_m": 0.009709209739827309,
+        "orientation_rad": 0.009765870638282026
+      },
+      "Retreat": {
+        "position_m": 0.009323321757186418,
+        "orientation_rad": 0.02315201727881989
+      }
+    },
+    "min_contact_distance_m": -0.003453326740446198,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_13 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_75 <-> table_top",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top",
+      "geom_78 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.463383367775873,
+      -0.027702341803925768,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.5505093756597654,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6529864626608347,
+      0.19075099438525897,
+      0.3699105293471724
+    ],
+    "joint_state_samples": 10026,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.030136471054015068,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3460533288543943,
+    "cube_z_before_lift_m": 0.3491519385429044,
+    "cube_z_after_lift_m": 0.47118528396587106,
+    "cube_lift_delta_m": 0.12203334542296668,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 18,
+    "seed": 17,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.6521,
+    "ik_iterations": 7246,
+    "simulation_steps": 8496,
+    "phase_iterations": {
+      "Pre-grasp": 2001,
+      "Grasp approach": 581,
+      "Lift": 811,
+      "Transit above tray": 2001,
+      "Place in tray": 811,
+      "Retreat": 1041
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.0006202372016602999,
+        "orientation_rad": 0.02639140360813818
+      },
+      "Grasp approach": {
+        "position_m": 0.00828483302896504,
+        "orientation_rad": 0.05833237338201254
+      },
+      "Lift": {
+        "position_m": 0.007830304306664709,
+        "orientation_rad": 0.032074242113324644
+      },
+      "Transit above tray": {
+        "position_m": 0.0022413765961062826,
+        "orientation_rad": 0.005909795275773085
+      },
+      "Place in tray": {
+        "position_m": 0.008277060686184777,
+        "orientation_rad": 0.02882426164456968
+      },
+      "Retreat": {
+        "position_m": 0.009558440706230997,
+        "orientation_rad": 0.0016500644369455367
+      }
+    },
+    "min_contact_distance_m": -0.0038213754963554534,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_67 <-> tray_base",
+      "geom_68 <-> table_top",
+      "geom_68 <-> tray_base",
+      "geom_69 <-> tray_base",
+      "geom_75 <-> tray_base",
+      "geom_76 <-> tray_base",
+      "geom_78 <-> tray_base"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.5190149585595804,
+      -0.1356107635323572,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 0.36281969157785243,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6486592292710478,
+      0.1990271161365889,
+      0.36922018732195433
+    ],
+    "joint_state_samples": 8496,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.9600177659502265,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.29995086352617717,
+    "cube_z_before_lift_m": 0.34904120302243435,
+    "cube_z_after_lift_m": 0.47478209526363097,
+    "cube_lift_delta_m": 0.1257408922411966,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 19,
+    "seed": 18,
+    "success": false,
+    "reason": "IK did not converge during Pre-grasp (position=0.1822 m, orientation=0.3699 rad)",
+    "time_s": 1.5496,
+    "ik_iterations": 6000,
+    "simulation_steps": 6000,
+    "phase_iterations": {
+      "Pre-grasp": 6000
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.1821638476586644,
+        "orientation_rad": 0.36991896629018517
+      }
+    },
+    "min_contact_distance_m": -0.0003289798851342499,
+    "contact_pairs": [
+      "cube_geom <-> table_top",
+      "geom_15 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.42986115384351453,
+      0.08696587171528646,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -1.3771276449607033,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 6000,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.618358213882306,
+    "velocity_violation_samples": 87,
+    "velocity_violation_joint_samples": 87,
+    "peak_abs_joint_velocity_rad_s": 0.6952397761419217,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": true
+  },
+  {
+    "episode": 20,
+    "seed": 19,
+    "success": false,
+    "reason": "IK did not converge during Pre-grasp (position=0.3375 m, orientation=0.6608 rad)",
+    "time_s": 1.5475,
+    "ik_iterations": 6000,
+    "simulation_steps": 6000,
+    "phase_iterations": {
+      "Pre-grasp": 6000
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.3374771636808813,
+        "orientation_rad": 0.6608162479026444
+      }
+    },
+    "min_contact_distance_m": -0.0003408706011780771,
+    "contact_pairs": [
+      "cube_geom <-> table_top",
+      "geom_15 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.43407575914585217,
+      0.17034773792668148,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -1.420816769549856,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 6000,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.22039162437228588,
+    "velocity_violation_samples": 233,
+    "velocity_violation_joint_samples": 234,
+    "peak_abs_joint_velocity_rad_s": 1.283431076998697,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": true
+  },
+  {
+    "episode": 21,
+    "seed": 20,
+    "success": false,
+    "reason": "Grasp check failed: cube did not rise by at least 0.015 m",
+    "time_s": 1.4734,
+    "ik_iterations": 5243,
+    "simulation_steps": 5843,
+    "phase_iterations": {
+      "Pre-grasp": 3711,
+      "Grasp approach": 701,
+      "Lift": 831
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.008273400522143114,
+        "orientation_rad": 0.07788251734460166
+      },
+      "Grasp approach": {
+        "position_m": 0.009805671330250714,
+        "orientation_rad": 0.038776187739519574
+      },
+      "Lift": {
+        "position_m": 0.009574038721428285,
+        "orientation_rad": 0.05379127701317768
+      }
+    },
+    "min_contact_distance_m": -0.012053920072284962,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_67",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_75",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> table_top",
+      "geom_13 <-> table_top",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_69 <-> table_top",
+      "geom_70 <-> table_top",
+      "geom_75 <-> table_top",
+      "geom_76 <-> table_top",
+      "geom_77 <-> table_top",
+      "geom_78 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.40601519252603185,
+      -0.015541316078823142,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.3768052695990773,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "joint_state_samples": 5843,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.0011618519767901958,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.33243906103046,
+    "cube_z_before_lift_m": 0.349084223096488,
+    "cube_z_after_lift_m": 0.34989224457978285,
+    "cube_lift_delta_m": 0.0008080214832948407,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 22,
+    "seed": 21,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 1.9661,
+    "ik_iterations": 5266,
+    "simulation_steps": 6516,
+    "phase_iterations": {
+      "Pre-grasp": 731,
+      "Grasp approach": 611,
+      "Lift": 801,
+      "Transit above tray": 1571,
+      "Place in tray": 581,
+      "Retreat": 971
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.007400573763410321,
+        "orientation_rad": 0.01970718485051826
+      },
+      "Grasp approach": {
+        "position_m": 0.009772065626691636,
+        "orientation_rad": 0.05334479201308058
+      },
+      "Lift": {
+        "position_m": 0.008152747698239558,
+        "orientation_rad": 0.028188440919872083
+      },
+      "Transit above tray": {
+        "position_m": 0.009903175207076453,
+        "orientation_rad": 0.008510019342673017
+      },
+      "Place in tray": {
+        "position_m": 0.009686581344048194,
+        "orientation_rad": 0.0190271995300788
+      },
+      "Retreat": {
+        "position_m": 0.009011941906366455,
+        "orientation_rad": 0.022312772938271396
+      }
+    },
+    "min_contact_distance_m": -0.0029689053420414594,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.5062235177634942,
+      0.04233881182838722,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 1.3182197570030036,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.655435539646109,
+      0.20130667722217266,
+      0.3698922445797833
+    ],
+    "joint_state_samples": 6516,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.8559170788409229,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.30573421690170854,
+    "cube_z_before_lift_m": 0.34946738357345375,
+    "cube_z_after_lift_m": 0.4750500841187783,
+    "cube_lift_delta_m": 0.12558270054532455,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 23,
+    "seed": 22,
+    "success": false,
+    "reason": "Placement check failed: cube not confirmed inside tray at plausible height",
+    "time_s": 2.3226,
+    "ik_iterations": 8205,
+    "simulation_steps": 9455,
+    "phase_iterations": {
+      "Pre-grasp": 3661,
+      "Grasp approach": 991,
+      "Lift": 531,
+      "Transit above tray": 2231,
+      "Place in tray": 791
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.009820575458926154,
+        "orientation_rad": 0.07304196419095667
+      },
+      "Grasp approach": {
+        "position_m": 0.00955198677595791,
+        "orientation_rad": 0.02261015117776133
+      },
+      "Lift": {
+        "position_m": 0.00890349921763915,
+        "orientation_rad": 0.06228385602056008
+      },
+      "Transit above tray": {
+        "position_m": 0.00974787783226636,
+        "orientation_rad": 0.003983436931927393
+      },
+      "Place in tray": {
+        "position_m": 0.009826025127200972,
+        "orientation_rad": 0.02205264910260513
+      }
+    },
+    "min_contact_distance_m": -0.013822607306150834,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_67",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> table_top",
+      "geom_13 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4232693830864152,
+      -0.12028184824996685,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.5851639838868,
+    "cube_lifted": true,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": [
+      0.45654755015869364,
+      -0.04471637252177196,
+      0.34989224457978346
+    ],
+    "joint_state_samples": 9455,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.010563263970799763,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.35677071616133804,
+    "cube_z_before_lift_m": 0.3553799846461555,
+    "cube_z_after_lift_m": 0.43404811362049933,
+    "cube_lift_delta_m": 0.07866812897434383,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 24,
+    "seed": 23,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.945,
+    "ik_iterations": 8866,
+    "simulation_steps": 10116,
+    "phase_iterations": {
+      "Pre-grasp": 4041,
+      "Grasp approach": 781,
+      "Lift": 931,
+      "Transit above tray": 1591,
+      "Place in tray": 551,
+      "Retreat": 971
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.002706736861366983,
+        "orientation_rad": 0.07829718987877621
+      },
+      "Grasp approach": {
+        "position_m": 0.009795886824733988,
+        "orientation_rad": 0.06129122409164835
+      },
+      "Lift": {
+        "position_m": 0.009853607522635501,
+        "orientation_rad": 0.07283942589181043
+      },
+      "Transit above tray": {
+        "position_m": 0.009834108530789856,
+        "orientation_rad": 0.03128292277061204
+      },
+      "Place in tray": {
+        "position_m": 0.009714337714162314,
+        "orientation_rad": 0.04562487156281119
+      },
+      "Retreat": {
+        "position_m": 0.008299966578188114,
+        "orientation_rad": 0.02262081551693424
+      }
+    },
+    "min_contact_distance_m": -0.002865857182019118,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_68",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_76",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_13 <-> table_top",
+      "geom_75 <-> tray_base"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.4887866161314729,
+      0.05658328835129223,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": -2.333297153503706,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6501150003866214,
+      0.2020842920828356,
+      0.3698922445797834
+    ],
+    "joint_state_samples": 10116,
+    "joint_limit_violation_samples": 25,
+    "joint_limit_violation_joint_samples": 25,
+    "joint_limit_max_excursion_rad": 1.3252361736881824e-06,
+    "min_joint_limit_margin_rad": -1.3252361736881824e-06,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.3598500539721671,
+    "cube_z_before_lift_m": 0.3548919922846635,
+    "cube_z_after_lift_m": 0.47981838387839826,
+    "cube_lift_delta_m": 0.12492639159373475,
+    "joint_position_limit_violation": true,
+    "actual_joint_velocity_limit_violation": false
+  },
+  {
+    "episode": 25,
+    "seed": 24,
+    "success": true,
+    "reason": "Cube lifted and confirmed in tray",
+    "time_s": 2.5564,
+    "ik_iterations": 7136,
+    "simulation_steps": 8386,
+    "phase_iterations": {
+      "Pre-grasp": 2001,
+      "Grasp approach": 611,
+      "Lift": 811,
+      "Transit above tray": 2191,
+      "Place in tray": 561,
+      "Retreat": 961
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.0008102688757963581,
+        "orientation_rad": 0.0008018777470179631
+      },
+      "Grasp approach": {
+        "position_m": 0.00968791318172076,
+        "orientation_rad": 0.05126977115656174
+      },
+      "Lift": {
+        "position_m": 0.009588090390588106,
+        "orientation_rad": 0.029427019648071668
+      },
+      "Transit above tray": {
+        "position_m": 0.009679854338200948,
+        "orientation_rad": 0.008896736569270978
+      },
+      "Place in tray": {
+        "position_m": 0.009454666333263417,
+        "orientation_rad": 0.02699657034745188
+      },
+      "Retreat": {
+        "position_m": 0.00918848586777676,
+        "orientation_rad": 0.022386442633543314
+      }
+    },
+    "min_contact_distance_m": -0.0033330806738163187,
+    "contact_pairs": [
+      "cube_geom <-> geom_64",
+      "cube_geom <-> geom_69",
+      "cube_geom <-> geom_70",
+      "cube_geom <-> geom_71",
+      "cube_geom <-> geom_72",
+      "cube_geom <-> geom_77",
+      "cube_geom <-> geom_78",
+      "cube_geom <-> geom_79",
+      "cube_geom <-> geom_80",
+      "cube_geom <-> table_top",
+      "cube_geom <-> tray_base",
+      "geom_67 <-> table_top",
+      "geom_68 <-> table_top",
+      "geom_69 <-> table_top",
+      "geom_75 <-> table_top"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.41605376733386307,
+      -0.03792907374434247,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 0.4695915682872555,
+    "cube_lifted": true,
+    "placed_in_tray": true,
+    "final_cube_position_xyz_m": [
+      0.6549438477376442,
+      0.20431967000003456,
+      0.36975192031363757
+    ],
+    "joint_state_samples": 8386,
+    "joint_limit_violation_samples": 0,
+    "joint_limit_violation_joint_samples": 0,
+    "joint_limit_max_excursion_rad": 0.0,
+    "min_joint_limit_margin_rad": 0.5845683665617729,
+    "velocity_violation_samples": 0,
+    "velocity_violation_joint_samples": 0,
+    "peak_abs_joint_velocity_rad_s": 0.30862087237468305,
+    "cube_z_before_lift_m": 0.349009879227725,
+    "cube_z_after_lift_m": 0.4728401440243819,
+    "cube_lift_delta_m": 0.12383026479665693,
+    "joint_position_limit_violation": false,
+    "actual_joint_velocity_limit_violation": false
+  }
+]

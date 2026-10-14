@@ -1,0 +1,6 @@
+file '/Users/nancykoundal/ITR_LAB3_FRANKA/video/raw/mink_demo.mov'
+file '/Users/nancykoundal/ITR_LAB3_FRANKA/video/raw/mink_trial2.mov'
+file '/Users/nancykoundal/ITR_LAB3_FRANKA/video/raw/dls_demo.mov'
+file '/Users/nancykoundal/ITR_LAB3_FRANKA/video/raw/dls_trial2.mov'
+file '/Users/nancykoundal/ITR_LAB3_FRANKA/video/raw/qp_demo.mov'
+file '/Users/nancykoundal/ITR_LAB3_FRANKA/video/raw/qp_trial2.mov'

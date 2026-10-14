@@ -1,0 +1,9 @@
+Actuator-aligned pick-and-place IK validation
+Scene: /Users/nancykoundal/ITR_LAB3_FRANKA/robot_descriptions/franka_emika_panda/pick_place_scene.xml
+Seed base: 0; episodes: 25
+Pre-grasp reached: 17/25 (68.0%)
+Grasp approach reached after pre-grasp: 17/17 (100.0% of attempted cases)
+Both waypoints reached: 17/25 (68.0%)
+Elapsed wall time: 14.15 s
+
+Limitations: this validates only the first two waypoints with actuator dynamics. It does not test grasp contact, cube lift, transit, tray placement, or full episode success.

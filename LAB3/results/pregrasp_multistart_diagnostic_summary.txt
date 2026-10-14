@@ -1,0 +1,9 @@
+Pre-grasp multi-start offline IK diagnostic
+Source benchmark: mink_results_collision_free_25_episodes.json
+Failed pre-grasp poses tested: 7
+Poses reached from at least one tested start: 7/7
+Poses reached from home start: 7/7
+Random starts per pose: 3
+Iterations per attempt: 1800
+Interpretation: success demonstrates a kinematic IK solution from a tested start only; it does not prove collision-free path feasibility or successful physical execution.
+Elapsed wall time: 2.41 s

@@ -1,0 +1,7 @@
+Task workspace samples: 20000
+Candidate positions tested: 160
+Yaw targets per position: 8
+Yaw targets: -3.142, -2.356, -1.571, -0.785, 0.000, 0.785, 1.571, 2.356 rad
+Dexterous candidates meeting criterion: 160
+Criterion: at least half of tested yaw targets solved within IK tolerances and joint limits.
+Note: results are approximate and depend on sampling, IK convergence, seed choice, and the hand-body reference.

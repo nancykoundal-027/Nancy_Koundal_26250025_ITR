@@ -1,0 +1,55 @@
+
+<mujoco model="Franka Panda Pick and Place">
+    <include file="panda.xml"/>
+
+    <option timestep="0.002" gravity="0 0 -9.81"/>
+
+    <visual>
+        <global azimuth="135" elevation="-25"/>
+    </visual>
+
+    <worldbody>
+        <light pos="0 -1 2" dir="0 0 -1"/>
+
+        <body name="table" pos="0.45 0 0.30">
+            <geom name="table_top" type="box"
+                  size="0.35 0.45 0.025"
+                  rgba="0.4 0.4 0.45 1"/>
+        </body>
+
+        <body name="cube" pos="0.45 0 0.35">
+            <freejoint name="cube_free"/>
+            <geom name="cube_geom" type="box"
+                  size="0.025 0.025 0.025"
+                  mass="0.08"
+                  rgba="0.9 0.15 0.1 1"/>
+        </body>
+
+        <body name="tray" pos="0.65 0.20 0.335">
+            <geom name="tray_base" type="box"
+                  size="0.12 0.12 0.01"
+                  rgba="0.1 0.4 0.9 1"/>
+
+            <geom name="wall_x1" type="box"
+                  pos="0.11 0 0.025"
+                  size="0.01 0.12 0.025"
+                  rgba="0.1 0.4 0.9 1"/>
+
+            <geom name="wall_x2" type="box"
+                  pos="-0.11 0 0.025"
+                  size="0.01 0.12 0.025"
+                  rgba="0.1 0.4 0.9 1"/>
+
+            <geom name="wall_y1" type="box"
+                  pos="0 0.11 0.025"
+                  size="0.10 0.01 0.025"
+                  rgba="0.1 0.4 0.9 1"/>
+
+            <geom name="wall_y2" type="box"
+                  pos="0 -0.11 0.025"
+                  size="0.10 0.01 0.025"
+                  rgba="0.1 0.4 0.9 1"/>
+        </body>
+    </worldbody>
+</mujoco>
+

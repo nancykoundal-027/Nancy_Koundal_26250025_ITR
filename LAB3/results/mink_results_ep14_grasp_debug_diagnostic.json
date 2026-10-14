@@ -1,0 +1,52 @@
+[
+  {
+    "episode": 1,
+    "seed": 13,
+    "success": false,
+    "reason": "Grasp check failed: cube did not rise by at least 0.015 m",
+    "time_s": 0.4818,
+    "ik_iterations": 1503,
+    "simulation_steps": 2103,
+    "phase_iterations": {
+      "Pre-grasp": 501,
+      "Grasp approach": 501,
+      "Lift": 501
+    },
+    "phase_errors": {
+      "Pre-grasp": {
+        "position_m": 0.003998552432406809,
+        "orientation_rad": 0.007839062539633115
+      },
+      "Grasp approach": {
+        "position_m": 0.002779548484720143,
+        "orientation_rad": 0.006755965417208778
+      },
+      "Lift": {
+        "position_m": 0.004426672829725917,
+        "orientation_rad": 0.009246919393633786
+      }
+    },
+    "min_contact_distance_m": -0.0020241371068049907,
+    "contact_pairs": [
+      "cube_geom <-> table_top",
+      "geom_67 <-> tray_base",
+      "geom_68 <-> tray_base",
+      "geom_69 <-> tray_base",
+      "geom_69 <-> wall_x2",
+      "geom_70 <-> tray_base",
+      "geom_71 <-> wall_x2"
+    ],
+    "initial_cube_pose_xyz_m": [
+      0.5229595174033174,
+      0.1421210059728236,
+      0.35000000000000003
+    ],
+    "initial_cube_yaw_rad": 1.9542176494308359,
+    "cube_lifted": false,
+    "placed_in_tray": false,
+    "final_cube_position_xyz_m": null,
+    "cube_z_before_lift_m": 0.3498922445797834,
+    "cube_z_after_lift_m": 0.3498922445797834,
+    "cube_lift_delta_m": 0.0
+  }
+]
