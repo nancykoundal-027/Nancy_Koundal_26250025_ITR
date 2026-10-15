@@ -127,6 +127,16 @@ The benchmark commands use a common seed base to compare methods on matching ran
 
 Retain the original robot model's license and attribution files when distributing its description and assets.
 
-## Video Demonstration
+## Video
 
 [Watch the FRANKA Pick-and-Place IK Comparison on YouTube](https://youtu.be/JxW19l81Ryw)
+
+## Reports
+
+- [Final Report](report/final_report.md)
+- [Failure Case Report](report/failure_case_report.md)
+- [Open Reports Folder](report/)
+
+## Results
+
+[Open Results Folder](results/)
