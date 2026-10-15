@@ -20,10 +20,7 @@ Copy `REPORT.md`, `README_HEAL.md`, `report/`, and `report_assets/` into the exi
 
 ## Reports
 
-- [Five-page Final Report (PDF)](report/HEAL_Pick_and_Place_Report_5_pages.pdf)
-- [Editable Final Report (DOCX)](report/HEAL_Pick_and_Place_Report_5_pages.docx)
-- [Project Report Summary](REPORT.md)
-- [Open Reports Folder](report/)
+[HEAL Pick and Place Task Report](HEAL_Pick_and_Place_Task_Report.md)
 
 ## Results
 
