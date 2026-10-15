@@ -126,3 +126,7 @@ Place the final report in `report/` and the demonstration video in `video/`.
 The benchmark commands use a common seed base to compare methods on matching randomized cube poses. Results can depend on software versions, model files and controller settings.
 
 Retain the original robot model's license and attribution files when distributing its description and assets.
+
+## Video Demonstration
+
+[Watch the FRANKA Pick-and-Place IK Comparison on YouTube](https://youtu.be/JxW19l81Ryw)
