@@ -1,0 +1,5 @@
+mujoco
+mink
+numpy
+scipy
+matplotlib

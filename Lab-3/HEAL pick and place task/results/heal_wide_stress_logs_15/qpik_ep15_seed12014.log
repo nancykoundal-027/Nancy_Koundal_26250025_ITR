@@ -1,0 +1,41 @@
+
+=== HEAL QP-IK PICK-AND-PLACE ===
+Scene: scenes/heal_pick_place_gripper_front_table_50g.xml
+Cube initial position: [0.5037 0.1725 0.225 ]
+Path: approach -> descend -> grip -> vertical lift
+Then horizontal carry at high clearance -> vertical place -> release
+
+1. Approach above cube
+EE=[ 0.377 -0.     0.498] | cube=[0.5037 0.1725 0.225 ]
+EE=[0.38  0.05  0.494] | cube=[0.5037 0.1725 0.2244]
+EE=[0.399 0.149 0.47 ] | cube=[0.5037 0.1725 0.2244]
+EE=[0.433 0.238 0.431] | cube=[0.5037 0.1725 0.2244]
+Settle above cube
+
+2. Descend vertically to cube
+EE=[0.494 0.185 0.421] | cube=[0.507  0.1604 0.2269]
+EE=[0.494 0.168 0.414] | cube=[0.503  0.1472 0.2256]
+EE=[0.494 0.172 0.384] | cube=[0.5015 0.1474 0.2244]
+EE=[0.501 0.174 0.359] | cube=[0.5015 0.1474 0.2244]
+Settle at grasp height
+3. Close gripper
+Stabilize the grasp
+
+=== GRASP CHECK ===
+Pad contact: []
+Cube horizontal shift during closing: 0.0422 m
+Grasp rejected. Stopping before lift.
+
+=== LIFT VERIFICATION ===
+Cube position: [0.5034 0.1303 0.2244]
+Vertical rise: -0.0006 m
+Lateral shift: 0.0422 m
+
+=== FINAL SUMMARY ===
+Lift verified: False
+Place verified: False
+Initial cube position: [0.5037 0.1725 0.225 ]
+Final cube position: [0.5034 0.1303 0.2244]
+RESULT: NOT VERIFIED — inspect the failed stage.
+Close the viewer when you finish inspecting the robot.
+Simulation finished.
