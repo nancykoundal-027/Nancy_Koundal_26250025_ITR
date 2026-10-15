@@ -1,3 +1,30 @@
+
+## Table Design and Workspace Justification
+
+### Selected table geometry
+
+The table dimensions below are read from the box geometry `table_top` in `scenes/heal_pick_place_gripper_front_table.xml`. Dimensions are derived from MuJoCo box half-sizes, so length, width and thickness are twice the corresponding size values.
+
+| Parameter | Value from MuJoCo scene | Design relevance |
+|---|---:|---|
+| Table length, L | 0.600 m | Table extent along the X direction. |
+| Table width, W | 0.600 m | Table extent along the Y direction. |
+| Tabletop thickness | 0.200 m | Thickness of the selected box geometry. |
+| Table height from z = 0 | 0.200 m | Floor-to-top height, because the tabletop box begins approximately at z = 0. |
+| Tabletop elevation | 0.200 m | Height of the upper surface in world coordinates. |
+| X limits | [0.150 m, 0.750 m] | Geometric limits of the tabletop. |
+| Y limits | [-0.300 m, 0.300 m] | Geometric limits of the tabletop. |
+
+### Workspace and randomized-start check
+
+![HEAL workspace analysis](../results/workspace_analysis.png)
+
+The baseline episode CSV contains 75 data rows; 75 rows have readable cube-start X and Y coordinates. The observed X range is [0.430 m, 0.469 m], and the observed Y range is [0.081 m, 0.119 m].
+
+These observed start coordinates fall within the tabletop's geometric X/Y limits.
+
+The tabletop dimensions define the physical region available for cube randomization and placement. The workspace visualization provides the geometric context for this choice, while episode logs and collision-aware execution are needed to establish actual IK reachability and safe approach clearance. Tabletop dimensions alone do not prove collision-free motion.
+
 # HEAL Robot Pick-and-Place: Three IK Methods
 
 **ITR Lab 3 | MuJoCo simulation**
