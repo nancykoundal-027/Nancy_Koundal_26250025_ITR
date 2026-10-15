@@ -20,7 +20,7 @@ Copy `REPORT.md`, `README_HEAL.md`, `report/`, and `report_assets/` into the exi
 
 ## Reports
 
-[HEAL Pick and Place Task Report](HEAL_Pick_and_Place_Task_Report.md)
+[HEAL Pick and Place Task Report](report/HEAL_Pick_and_Place_Task_Report.md)
 
 ## Results
 

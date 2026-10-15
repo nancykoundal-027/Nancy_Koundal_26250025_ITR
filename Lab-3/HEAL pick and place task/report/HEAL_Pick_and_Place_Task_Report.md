@@ -4,7 +4,6 @@
 **Methods:** Mink + DAQP, damped least-squares IK (DLS-IK), and constrained QP-IK
 **Robot/end effector:** HEAL arm with Robotiq 2F-85 gripper
 
-> **Report files:** [Five-page PDF](report/HEAL_Pick_and_Place_Report_5_pages.pdf) · [Editable DOCX](report/HEAL_Pick_and_Place_Report_5_pages.docx)
 
 ## Abstract
 
@@ -16,7 +15,7 @@ All methods completed 25/25 baseline episodes. In a wider stress test, Mink and 
 
 The worktable was placed in front of the robot while preserving the robot's original orientation. This avoids an unnecessary base rotation and keeps the task targets reachable in the current setup.
 
-![Top-view table, pick point, and tray layout](report_assets/workspace_layout.png)
+![Top-view table, pick point, and tray layout](../report_assets/workspace_layout.png)
 
 | Scene item | Position/value | Meaning |
 |---|---:|---|
@@ -50,14 +49,14 @@ These are comparisons of complete controller/task implementations, not a perfect
 
 The baseline ran 25 episodes per method, with cube x/y offsets sampled within ±0.02 m. The wide stress test ran 15 episodes per method with x/y offsets within ±0.12 m. For each episode, the same initial offset was used across the three methods. **The PREGRASP, GRASP, and LIFT x/y targets were shifted with the cube**, so the wide test is not a fixed-target robustness test.
 
-![Success rate comparison](report_assets/success_rates.png)
+![Success rate comparison](../report_assets/success_rates.png)
 
 | Test | Mink | DLS-IK | QP-IK | Total |
 |---|---:|---:|---:|---:|
 | Baseline, 25 episodes/method | 25/25 (100%) | 25/25 (100%) | 25/25 (100%) | 75/75 |
 | Wide stress, 15 episodes/method | 15/15 (100%) | 15/15 (100%) | 11/15 (73.3%) | 41/45 |
 
-![Failed episodes in the wide stress test](report_assets/stress_failures.png)
+![Failed episodes in the wide stress test](../report_assets/stress_failures.png)
 
 QP-IK did not verify success in Episodes 7, 8, 13, and 15. Mink and DLS-IK had no failures in this 15-episode stress sample. These are observed sample results, not evidence that the first two methods always succeed.
 
@@ -65,7 +64,7 @@ QP-IK did not verify success in Episodes 7, 8, 13, and 15. Mink and DLS-IK had n
 
 Episode 15 (seed `12014`) was replayed using its logged initial cube coordinates. The run reached the grasp-height stage but detected no finger-pad contact. Cube movement during gripper closure exceeded the configured grasp-motion threshold, and the task stopped before lift.
 
-![QP-IK Episode 15 failure in MuJoCo](report_assets/qp_failure_episode15.png)
+![QP-IK Episode 15 failure in MuJoCo](../report_assets/qp_failure_episode15.png)
 
 | Measured quantity | Result |
 |---|---:|
