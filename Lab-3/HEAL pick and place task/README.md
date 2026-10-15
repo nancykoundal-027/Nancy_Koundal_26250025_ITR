@@ -24,4 +24,16 @@ Copy `REPORT.md`, `README_HEAL.md`, `report/`, and `report_assets/` into the exi
 
 ## Results
 
-[Open Results Folder](results/)
+### Workspace Analysis
+
+![HEAL Workspace Analysis](plots/heal_workspace_analysis.png)
+
+[Open Workspace Analysis Plot](plots/heal_workspace_analysis.png)
+
+### IK Performance Comparison
+
+- [Success-Rate Comparison](plots/heal_success_rate_comparison.png)
+- [Runtime Comparison](plots/heal_runtime_comparison.png)
+- [Placement Accuracy Comparison](plots/heal_placement_accuracy.png)
+- [Open All Plots](plots/)
+- [Open Evaluation Results and Logs](results/)
