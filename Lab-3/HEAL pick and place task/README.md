@@ -13,3 +13,18 @@ This bundle is intended to be merged into the existing `Lab-3/HEAL/` project fol
 ## Merge into the existing HEAL project
 
 Copy `REPORT.md`, `README_HEAL.md`, `report/`, and `report_assets/` into the existing `Lab-3/HEAL/` folder. Merge the folders rather than replacing the existing `scripts/`, `scenes/`, `results/`, `plots/`, or robot asset folders. The Markdown report also documents paths to the project result CSVs and logs, which should be committed with the code.
+
+## Video
+
+[Watch the HEAL Pick-and-Place IK Comparison on YouTube](https://youtu.be/EbNtycII7qU)
+
+## Reports
+
+- [Five-page Final Report (PDF)](report/HEAL_Pick_and_Place_Report_5_pages.pdf)
+- [Editable Final Report (DOCX)](report/HEAL_Pick_and_Place_Report_5_pages.docx)
+- [Project Report Summary](REPORT.md)
+- [Open Reports Folder](report/)
+
+## Results
+
+[Open Results Folder](results/)
